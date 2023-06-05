@@ -1,0 +1,46 @@
+/* CSS styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+  
+header {
+  background-color: 	#0404B4;
+  padding: 0.2px;
+  font-family: Optima, sans-serif;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.2px;
+  display: flex;
+  justify-content: center;
+  background-color: 	#FFC0CB;
+  font-family: Book Antiqua;
+}
+
+nav li {
+  margin: 4 40px;
+
+nav a {
+  text-decoration: underline;
+  color: blue;
+}
+
+main {
+  padding: 0px;
+  text-align: center;
+}
+  
+footer {
+  background-color: lightgreen;
+  padding: 0.1px;
+  text-align: center;
+  font-family: arial;
+  font-size: 15px;
+}
+
+
+
