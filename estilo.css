@@ -5,7 +5,7 @@ body {
 }
   
 header {
-  background-color: 	#0404B4;
+  background-color:	#FF0000;
   padding: 0.2px;
   font-family: Optima, sans-serif;
   color: white;
@@ -17,8 +17,9 @@ nav ul {
   padding: 0.2px;
   display: flex;
   justify-content: center;
-  background-color: 	#FFC0CB;
+  background-color: 	#8B0000;
   font-family: Book Antiqua;
+  color: white;
 }
 
 nav li {
@@ -26,7 +27,7 @@ nav li {
 
 nav a {
   text-decoration: underline;
-  color: blue;
+  color:;
 }
 
 main {
@@ -35,7 +36,7 @@ main {
 }
   
 footer {
-  background-color: lightgreen;
+  background-color: #FF0000;
   padding: 0.1px;
   text-align: center;
   font-family: arial;
