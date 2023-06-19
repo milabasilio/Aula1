@@ -1,13 +1,18 @@
 /* CSS styles */
 body {
+  font-family:  Calibri;
   margin: 0;
   padding: 0;
 }
   
 header {
-  background-color: 	#0404B4;
+  background-color:red;
   padding: 0.2px;
   font-family: Optima, sans-serif;
+}
+
+h1 {
+  font-family:  Calibri;
   color: white;
 }
 
@@ -17,16 +22,18 @@ nav ul {
   padding: 0.2px;
   display: flex;
   justify-content: center;
-  background-color: 	#FFC0CB;
+  background-color: #B40404;
   font-family: Book Antiqua;
+  color: white;
 }
 
 nav li {
-  margin: 4 40px;
+  margin: 0 10px;
+}
 
 nav a {
   text-decoration: underline;
-  color: blue;
+  color:white;
 }
 
 main {
@@ -35,12 +42,11 @@ main {
 }
   
 footer {
-  background-color: lightgreen;
+  background-color:red;
   padding: 0.1px;
   text-align: center;
   font-family: arial;
   font-size: 15px;
 }
-
 
 
