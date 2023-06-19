@@ -29,10 +29,11 @@ nav ul {
 
 nav li {
   margin: 0 10px;
+}
 
 nav a {
   text-decoration: underline;
-  color:#000000;
+  color:white;
 }
 
 main {
