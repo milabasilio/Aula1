@@ -1,51 +1,53 @@
-<style>
-  /* Add styles for the body */
-  body {
-    font-family: Calibri;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Add styles for the header */
-  header {
-    background-color: red;
-    padding: 0.2px;
-    font-family: Book Antiqua;
-    
-  }
-
-  /* Add styles for the navigation menu */
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0.2px;
-    display: flex;
-    justify-content: center;
+/* CSS styles */
+body {
+  font-family:  Calibri;
+  margin: 0;
+  padding: 0;
+}
   
-  }
+header {
+  background-color:red;
+  padding: 0.2px;
+  font-family: Optima, sans-serif;
+}
 
-  nav li {
-    margin: 0 10px;
-  }
+h1 {
+  font-family:  Calibri;
+  color: white;
+}
 
-  /* Add styles for the links in the navigation menu */
-  nav a {
-    text-decoration: underline;
-    color: blue;
-  }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.2px;
+  display: flex;
+  justify-content: center;
+  background-color: #B40404;
+  font-family: Book Antiqua;
+  color: white;
+}
 
-  /* Add styles for the main content */
-  main {
-    padding: 0px;
-    text-align: center;
-  }
+nav li {
+  margin: 0 10px;
+}
 
-  /* Add styles for the footer */
-  footer {
-    background-color: red;
-    padding: 0.1px;
-    text-align: center;
-    font-family: Arial;
-    font-size: 15px;
-  }
-</style>
+nav a {
+  text-decoration: underline;
+  color:white;
+}
+
+main {
+  padding: 0px;
+  text-align: center;
+}
+  
+footer {
+  background-color:red;
+  padding: 0.1px;
+  text-align: center;
+  font-family: arial;
+  font-size: 15px;
+}
+
+
+
