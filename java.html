@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1> Java Script </h1>
-<button type=”button” onclick=”document.getElementById('demo').innerHTML=Date()”>
+<h1> JavaScript</h1>
+<button type="button"
+onclick = "document.getElementById('demo').innerHTML = Date()">
 Botão da data e hora </button>
-  
-<p id=”demo”> A data aparecerá aqui</p>
-  
-<h1>JavaScript2</h1> 
-  <p>Alterando conteúdo</p>
-  <button type="button" onclick="myFunction()">Click Me!</button>
-  <p id="demo2">Conteúdo</p>
+ 
+<p id = "demo"> A data aparecerá aqui </p>  
+
+<p id = "demo1"> </p>
+
+<script>
+document.getElementById("demo1").innerHTML = "Hello Javascript!";
+</script>
+<h1> JavaScript </h1>
+ 
+<p>Alterado conteúdo:</p>
+
+<button type = "button" onclick = "myFunction()"> Click me! </button>
+
+<p id = "demo2">Conteúdo</p>
+
+<script>
+function myFunction(){
+  document.getElementById("demo2").innerHTML = "Alterado";
+}
+</script>
+
+  <p id = "demo3"> Alterando estilo </p>  
   <script>
-    funcion myFuncion() {
-      document.getElementById('demo2').innerHTML = "Alterado";
+    function alterar_estilo(){
+      document.getElementById("demo3").style.fontsize = "25px";
+      document.getElementById("demo3").style.color = "red";
+      document.getElementById("demo3").style.backgroundColor = "yellow";
     }
   </script>
+  <button type = "button" onclick = "myFunction()"> Click me! </button>
 </body>
 </html>
+
