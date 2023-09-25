@@ -29,20 +29,19 @@
 </nav>
 </main>
 <footer>
-  <nav>
-   <ul>
-    <li><button type = "button" > Mudar cor </button></li>
-    <li><button type = "button" > Mudar de volta </button></li>
-   </ul>
-  </nav>
- <p id = "principal"> </p> 
   <script>
   function alterar_cor(){
       document.getElementById("principal").style.backgroundColor = "black";
       document.getElementById("principal").style.backgroundColor = "white";
        }
   </script>
-
+  <nav>
+   <ul>
+    <li><button type = "button" onclick="alterar_cor"> Mudar cor </button></li>
+    <li><button type = "button" onclick="alterar_cor"> Mudar de volta </button></li>
+   </ul>
+  </nav>
+ 
 <p align="center">Copyright © Mila Basilio </p> </footer>
 </body>
 </html>
