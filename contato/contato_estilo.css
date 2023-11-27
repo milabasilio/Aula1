@@ -6,7 +6,7 @@ body {
 }
   
 header {
-  background-color:##08088A;
+  background-color:#08088A;
   padding: 0.2px;
   font-family: Optima, sans-serif;
 }
@@ -48,5 +48,4 @@ footer {
   font-family: arial;
   font-size: 15px;
 }
-
 
