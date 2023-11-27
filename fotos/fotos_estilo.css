@@ -1,0 +1,52 @@
+/* CSS styles */
+body {
+  font-family:  Calibri;
+  margin: 0;
+  padding: 0;
+}
+  
+header {
+  background-color:#2E2EFE;
+  padding: 0.2px;
+  font-family: Optima, sans-serif;
+}
+
+h1 {
+  font-family:  Calibri;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.2px;
+  display: flex;
+  justify-content: center;
+  background-color: #F781F3;
+  font-family: Book Antiqua;
+  color: white;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color:white;
+}
+
+main {
+  padding: 0px;
+  text-align: center;
+}
+  
+footer {
+  background-color:#2E2EFE;
+  padding: 0.1px;
+  text-align: center;
+  font-family: arial;
+  font-size: 15px;
+}
+
+
