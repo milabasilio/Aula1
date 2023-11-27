@@ -22,7 +22,7 @@ nav ul {
   padding: 0.2px;
   display: flex;
   justify-content: center;
-  background-color: #fa7ade;
+  background-color: #F781F3;
   font-family: Book Antiqua;
   color: white;
 }
@@ -42,7 +42,7 @@ main {
 }
   
 footer {
-  background-color:#1e1ee3;
+  background-color:#2E2EFE;
   padding: 0.1px;
   text-align: center;
   font-family: arial;
